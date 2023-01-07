@@ -16,7 +16,7 @@ body{
     margin:auto;
 }
 
-/* Header area styles */
+/*======== Header secion css ======= */
 #header-section{
     background-image: url('img/banner1.png');
     height:100vh;
@@ -55,3 +55,31 @@ body{
     border: none;
     cursor: pointer;
 }
+
+/* ===== About section css ===== */
+.about-wrap {
+    display: flex;
+    align-items: center;
+    gap: 87px;
+    padding: 130px 0px;
+}
+.about-content {
+    padding-bottom: 0px;
+    font-size: 40px;
+    font-weight: 700;
+    color:#151414;
+}
+.about-desc{
+    padding-bottom: 16px;
+    padding-top: 24px;
+}
+.my-expreiance-list li {
+    list-style: none;
+}
+.my-expreiance-list li i {
+    margin-bottom: 8px;
+    margin-right: 10px;
+    color: #07ee8e;
+}
+
+
