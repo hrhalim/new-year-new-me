@@ -20,6 +20,9 @@ body{
 #header-section{
     background-image: url('img/banner1.png');
     height:100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .header-content-wrap {
