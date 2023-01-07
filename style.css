@@ -37,11 +37,10 @@ body{
 .header-text{
     max-width: 525px;
 }
-
-.banner-title {
-    font-size: 40px;
-    color: #333;
-    padding-bottom: 24px;
+.header-banner-title {
+    font-size: 66px;
+    font-weight: 700;
+    color: #151414;
 }
 
 .banner-desc{
