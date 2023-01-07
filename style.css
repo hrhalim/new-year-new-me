@@ -130,3 +130,66 @@ body{
     color:#F15B22;
 }
 
+/*==== footer area styles =====*/
+.footer-section{
+    padding: 100px 0px;
+    background-color: #161414;
+}
+.footer-content {
+    display: flex;
+    gap: 100px;
+    justify-content: space-between;
+}
+.footer-text {
+    max-width: 485px;
+}
+.footer-title{
+    font-size: 45px;
+    color:#fff;
+    font-weight: 600;
+}
+.footer-description {
+    color: #fff;
+    padding: 16px 0 24px;
+}
+.contact-address {
+    color: #fff;
+    margin-bottom: 16px;
+}
+
+.footer-form {
+    max-width: 325px;
+    width: 100%;
+}
+
+.form-title{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 31px;
+    color:#fff;
+}
+
+.submit-btn {
+    color: #F15B22;
+    border: none;
+    font-weight: 600;
+    border-radius: 6px;
+    padding: 15px 36px;
+    margin-top: 16px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.form-input {
+    padding: 15px;
+    border-radius: 6px;
+    border: 1px solid #fff;
+    outline: none;
+    display: block;
+    background-color: transparent;
+    color: #fff;
+    width: 100%;
+}
+input::placeholder{
+    color:#fff;
+}
