@@ -61,7 +61,7 @@ body{
     display: flex;
     align-items: center;
     gap: 87px;
-    padding: 130px 0px;
+    padding: 130px 0px 0px;
 }
 .about-content {
     padding-bottom: 0px;
@@ -82,7 +82,20 @@ body{
     color: #07ee8e;
 }
 
+/* portfolio section css */
+.portfolio-section {
+    padding: 100px 0px;
+}
+.portfolio-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
 
+.portfolio-title{
+    padding-top: 10px;
+    text-align: center;
+}
 /*========= plans section css ======== */
 
 .section-title{
